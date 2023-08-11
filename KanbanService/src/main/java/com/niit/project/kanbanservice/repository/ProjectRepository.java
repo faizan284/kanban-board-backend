@@ -13,4 +13,6 @@ public interface ProjectRepository extends MongoRepository<Project,Integer> {
     @Query(value = "{'members':{$regex:?0,$options:'i'}}")
     List<Project> findByEmailInMembers(String email);
     Project findByEmailAndProjectId(String email,int projectId);
+    @Query(value = "{'members':{$regex:?0,$options:'i'},'projectId':?1}")
+    Project findByMemberAndProjectId(String assignee,int projectId);
 }

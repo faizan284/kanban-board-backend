@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Transient;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 @Data
 @AllArgsConstructor
@@ -17,10 +17,10 @@ public class Task {
     @Id
     private int taskId;
     private String taskTitle;
-    private Date startDate;
-    private Date dueDate;
-    private String priority;
+    private String startDate;
+    private String dueDate;
+    private int priority;
     private String contents;
     private List<String> assignees;
-//    private List<String> history;
+    private List<String> history;
 }

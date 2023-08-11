@@ -24,9 +24,9 @@ public class JwtFilter extends GenericFilterBean {
             servletOutputStream.close();
         } else {
             String jwtToken = authenticationHeader.substring("Bearer ".length());
-            String emailId = Jwts.parser().setSigningKey("TrackKey").parseClaimsJws(jwtToken)
+            String email = Jwts.parser().setSigningKey("kanbankey").parseClaimsJws(jwtToken)
                     .getBody().getSubject();
-            httpServletRequest.setAttribute("emailId", emailId);
+            httpServletRequest.setAttribute("email", email);
         }
 
         chain.doFilter(request, response);

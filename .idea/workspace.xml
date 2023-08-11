@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f2aff24-360d-4e7a-b3d8-4bac7615bb87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/config/EmailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/config/MessageConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/config/NotificationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/config/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/exception/InvalidDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/exception/ProjectAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/test/java/com/niit/project/kanbanservice/repository/ProjectRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/test/java/com/niit/project/kanbanservice/repository/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KanbanService/src/test/java/com/niit/project/kanbanservice/service/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/config/MessageConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/domain/DbSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/domain/EmailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/domain/NotificationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/repository/EmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/service/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/service/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/service/NotificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/service/SequenceGeneratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/niit/NotificationService/service/SequenceGeneratorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/KanbanServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/KanbanServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/controller/KanbanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/controller/KanbanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/domain/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/domain/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/repository/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/java/com/niit/project/kanbanservice/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KanbanService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/KanbanService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanGateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanGateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanGateway/src/main/java/com/niit/project/kanbangateway/KanbanGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanGateway/src/main/java/com/niit/project/kanbangateway/KanbanGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kanbanGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kanbanGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/security/JwtSecurityTokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/security/JwtSecurityTokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/src/main/java/com/niit/project/userauthentication/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userAuthentication/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userAuthentication/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OaSMDwc1BEqPbk0l2M5mmk2NsE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/NIIT/Full Stack/FinalProject-Kanban/KanbanBoard&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.niit.project.kanbanservice.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NIIT\Full Stack\FinalProject-Kanban\KanbanBoard\NotificationService\src\main\java\com\niit\NotificationService\service" />
+      <recent name="D:\NIIT\Full Stack\FinalProject-Kanban\KanbanBoard\NotificationService\src\main\java\com\niit\NotificationService" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.niit.project.kanbanservice.service" />
+      <recent name="com.niit.project.kanbanservice.repository" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.niit.NotificationService.domain" />
+      <recent name="com.niit.NotificationService.config" />
+      <recent name="com.niit.project.kanbanservice.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UserAuthenticationApplication">
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.project.eurekaserver.EurekaServerApplication" />
+      <module name="EurekaServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.project.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KanbanGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.project.kanbangateway.KanbanGatewayApplication" />
+      <module name="kanbanGateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.project.kanbangateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KanbanServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.project.kanbanservice.KanbanServiceApplication" />
+      <module name="KanbanService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.project.kanbanservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.NotificationService.NotificationServiceApplication" />
+      <module name="NotificationService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.NotificationService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAuthenticationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.niit.project.userauthentication.UserAuthenticationApplication" />
+      <module name="userAuthentication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.project.userauthentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserAuthenticationApplication" />
+        <item itemvalue="Application.NotificationServiceApplication" />
+        <item itemvalue="Application.KanbanServiceApplication" />
+        <item itemvalue="Application.KanbanGatewayApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f2aff24-360d-4e7a-b3d8-4bac7615bb87" name="Changes" comment="" />
+      <created>1681797152614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681797152614</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

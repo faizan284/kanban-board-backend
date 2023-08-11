@@ -1,11 +1,13 @@
 server:
-  port: 8082
+  port: 8083
+  error:
+    include-message: always
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/KanbanDB
+      uri: mongodb://localhost:27017/kanban_service?createDatabaseIfNotExist=true
   application:
-    name: eurekaKanbanService
+    name: kanban-board-service
 eureka:
   client:
     service-url:
